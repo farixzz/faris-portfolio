@@ -1,14 +1,7 @@
 import React, { useState } from 'react';
 import { Send, Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
 
-// -----------------------------------------------------------------------
-// SETUP (one-time, ~30 seconds):
-// 1. Go to https://web3forms.com
-// 2. Enter your email — they send you an Access Key instantly, no signup.
-// 3. Paste that key below, replacing 'YOUR_ACCESS_KEY_HERE'.
-// That's it — submissions land straight in your inbox.
-// -----------------------------------------------------------------------
-const WEB3FORMS_ACCESS_KEY = 'YOUR_ACCESS_KEY_HERE';
+const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || '';
 
 type FormStatus = 'idle' | 'submitting' | 'success' | 'error';
 
@@ -20,6 +13,12 @@ export default function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (!WEB3FORMS_ACCESS_KEY) {
+      setStatus('error');
+      return;
+    }
+
     setStatus('submitting');
 
     try {
