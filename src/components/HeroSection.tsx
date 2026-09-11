@@ -104,7 +104,7 @@ export default function HeroSection() {
       >
         <div className="-translate-x-1/2 w-[280px] sm:w-[360px] md:w-[440px] lg:w-[520px] relative">
           <Magnet padding={150} strength={3}>
-            <img src="/images/portrait.png" alt="Faris" className="w-full h-auto object-contain pointer-events-none drop-shadow-2xl block" />
+            <img src="/images/portrait.webp" alt="Faris" className="w-full h-auto object-contain pointer-events-none drop-shadow-2xl block" />
           </Magnet>
           <div
             className="pointer-events-none absolute inset-x-0 bottom-0 h-16 sm:h-24 md:h-28"
