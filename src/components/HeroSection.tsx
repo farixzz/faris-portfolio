@@ -18,7 +18,7 @@ export default function HeroSection() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <section className="h-screen flex flex-col overflow-x-clip relative">
+    <section className="h-[100svh] flex flex-col overflow-x-clip relative">
       <FadeIn delay={0} y={-20}>
         <div className="px-6 md:px-10 pt-6 md:pt-8">
           {/* Mobile: hamburger trigger */}

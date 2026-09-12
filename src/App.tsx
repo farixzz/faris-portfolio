@@ -10,6 +10,7 @@ import ProjectsSection from './components/ProjectsSection';
 import BlogSection from './components/BlogSection';
 import FadeIn from './components/FadeIn';
 import ContactModal from './components/ContactModal';
+import BackToTop from './components/BackToTop';
 
 function Footer() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -83,6 +84,7 @@ export default function App() {
       <ProjectsSection />
       <BlogSection />
       <Footer />
+      <BackToTop />
     </div>
   );
 }
