@@ -5,7 +5,7 @@ import AnimatedText from './AnimatedText';
 import ContactButton from './ContactButton';
 
 const ABOUT_TEXT =
-  "i'm faris, a cybersecurity engineer and full-stack systems builder working across offensive security, secure architecture, and applied ai. i design and ship autonomous recon platforms, threat intelligence pipelines, and reactive web applications end to end, from the api layer to the exploit chain. let's build something resilient together!";
+  "i'm muhammed faris (known online as farixzz), a cybersecurity engineer, full-stack systems builder, and offensive security researcher with ai expertise. i design and ship autonomous recon platforms, threat intelligence pipelines, and reactive web applications end to end, from the api layer to the exploit chain. let's build something resilient together!";
 
 export default function AboutSection() {
   return (

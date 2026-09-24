@@ -104,6 +104,7 @@ export default function HeroSection() {
         <FadeIn delay={0.15} y={40} className="w-full">
           <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw] mt-6 sm:mt-4 md:-mt-5 text-center">
             Hi, i&apos;m faris
+            <span className="sr-only"> — Muhammed Faris (farixzz), Cybersecurity Engineer & Full-Stack AI Developer</span>
           </h1>
         </FadeIn>
       </div>
@@ -172,7 +173,11 @@ export default function HeroSection() {
           </motion.div>
 
           <Magnet padding={150} strength={3}>
-            <img src="/images/portrait-me.webp" alt="Faris" className="w-full h-auto object-contain pointer-events-none drop-shadow-2xl block" />
+            <img
+              src="/images/portrait-me.webp"
+              alt="Muhammed Faris (farixzz) — Cybersecurity Engineer & Full-Stack Developer"
+              className="w-full h-auto object-contain pointer-events-none drop-shadow-2xl block"
+            />
           </Magnet>
           <div
             className="pointer-events-none absolute inset-x-0 bottom-0 h-16 sm:h-24 md:h-28"

@@ -61,10 +61,10 @@ function Footer() {
 
         <div className="flex flex-col gap-3 border-t border-[#D7E2EA]/10 pt-6 text-[#D7E2EA]/35 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs uppercase tracking-widest">
-            Faris &mdash; farixzz &copy; {new Date().getFullYear()}
+            Muhammed Faris (farixzz) &copy; {new Date().getFullYear()}
           </p>
           <p className="text-xs uppercase tracking-widest">
-            Built for secure systems and sharp interfaces
+            Cybersecurity Engineer &middot; Full-Stack AI Developer
           </p>
         </div>
       </div>

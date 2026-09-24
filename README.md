@@ -176,12 +176,14 @@ The portfolio is continuously evolving as new security research, engineering pro
 
 ## Author
 
-**Faris Muhammed**
+**Muhammed Faris (farixzz)**
 
-Cybersecurity Engineer · Security Researcher · Full-Stack Builder
+Cybersecurity Engineer · Full-Stack AI Developer · Offensive Security Researcher (CEH v13-AI)
 
-- **GitHub:** `farixzz`
-- **LinkedIn:** `muhammed-faris-p`
+- **Portfolio:** [farixzz.vercel.app](https://farixzz.vercel.app/)
+- **GitHub:** [farixzz](https://github.com/farixzz)
+- **LinkedIn:** [muhammed-faris-p](https://www.linkedin.com/in/muhammed-faris-p/)
+- **Medium:** [@farixzz](https://medium.com/@farixzz)
 
 ---
 
