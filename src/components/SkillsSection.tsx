@@ -9,27 +9,27 @@ interface SkillCategory {
 const CATEGORIES: SkillCategory[] = [
   {
     title: 'Languages',
-    skills: ['Python', 'TypeScript', 'JavaScript', 'Bash'],
+    skills: ['Python', 'TypeScript', 'JavaScript', 'SQL', 'Bash'],
   },
   {
     title: 'Frontend',
-    skills: ['React', 'Reflex', 'Tailwind CSS', 'Framer Motion'],
+    skills: ['React', 'Next.js', 'Reflex', 'Tailwind CSS', 'Framer Motion'],
   },
   {
     title: 'Backend & APIs',
-    skills: ['FastAPI', 'REST Architecture', 'Async Task Handling', 'WebSockets'],
+    skills: ['FastAPI', 'Node.js / Express', 'PostgreSQL', 'WebSockets', 'JWT / RBAC'],
   },
   {
-    title: 'AI & Automation',
-    skills: ['LangGraph', 'Ollama', 'MCP Workflows', 'Local/Remote LLM Integration'],
+    title: 'AI & Autonomous Systems',
+    skills: ['LangGraph', 'Ollama (Local LLMs)', 'MCP Protocol', 'Agentic Workflows', 'Vector Search'],
   },
   {
-    title: 'Offensive Security',
-    skills: ['VAPT', 'Nmap', 'Nikto', 'SQLMap', 'Gobuster', 'Metasploit'],
+    title: 'Offensive Security & VAPT',
+    skills: ['Burp Suite', 'Nmap', 'Nikto', 'SQLMap', 'Gobuster', 'Metasploit', 'BOLA Testing'],
   },
   {
-    title: 'Systems & DevOps',
-    skills: ['Docker', 'Kali Linux', 'Parrot OS', 'VirtualBox'],
+    title: 'Systems & Detection',
+    skills: ['Docker', 'auditd', 'Wazuh', 'Kali Linux', 'YARA Rules', 'OSINT Analysis'],
   },
 ];
 

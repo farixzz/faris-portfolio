@@ -7,6 +7,8 @@ import SkillsSection from './components/SkillsSection';
 import ServicesSection from './components/ServicesSection';
 import VenturesSection from './components/VenturesSection';
 import ProjectsSection from './components/ProjectsSection';
+import ProcessSection from './components/ProcessSection';
+import SecuritySandbox from './components/SecuritySandbox';
 import BlogSection from './components/BlogSection';
 import FadeIn from './components/FadeIn';
 import ContactModal from './components/ContactModal';
@@ -80,8 +82,10 @@ export default function App() {
       <AboutSection />
       <SkillsSection />
       <ServicesSection />
-      <VenturesSection />
+      <ProcessSection />
+      <SecuritySandbox />
       <ProjectsSection />
+      <VenturesSection />
       <BlogSection />
       <Footer />
       <BackToTop />
